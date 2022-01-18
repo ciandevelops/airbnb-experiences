@@ -1,3 +1,6 @@
+# Scrimba
+Created with this React tutorial from [Scrimba](https://scrimba.com/learn/learnreact/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
