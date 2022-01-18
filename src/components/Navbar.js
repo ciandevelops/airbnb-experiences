@@ -1,8 +1,10 @@
+import Logo from "../images/airbnb.png";
+
 const Navbar = () => {
   return (
-    <div>
-      <h1>Navbar</h1>
-    </div>
+    <nav>
+      <img src={Logo} alt="logo" className="logo" />
+    </nav>
   );
 };
 

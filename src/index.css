@@ -9,3 +9,7 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+
+nav {
+  padding: 22px 30px;
+}
