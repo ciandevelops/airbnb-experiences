@@ -3,42 +3,20 @@ import Star from "../images/star.png";
 
 const Card = () => {
   return (
-    <div className="cards">
-      <section>
-        <img src={Athlete} alt="swimmer" />
+    <div className="card">
+      <img src={Athlete} alt="swimmer" />
 
-        <br />
-        <img src={Star} alt="star" />
-        <span>5.0 (6) - USA</span>
-        <p>Life lessons with Katie Zaferes</p>
-        <p>
-          <b>From $136 </b> / person
-        </p>
-      </section>
+      <div className="card--stats">
+        <img src={Star} alt="star" className="card--star" />
+        <span>5.0</span>
+        <span className="gray">(6) •</span>
+        <span className="gray">USA</span>
+      </div>
 
-      <section>
-        <img src={Athlete} alt="swimmer" />
-
-        <br />
-        <img src={Star} alt="star" />
-        <span>5.0 (6) - USA</span>
-        <p>Life lessons with Katie Zaferes</p>
-        <p>
-          <b>From $136 </b> / person
-        </p>
-      </section>
-
-      <section>
-        <img src={Athlete} alt="swimmer" />
-
-        <br />
-        <img src={Star} alt="star" />
-        <span>5.0 (6) - USA</span>
-        <p>Life lessons with Katie Zaferes</p>
-        <p>
-          <b>From $136 </b> / person
-        </p>
-      </section>
+      <p>Life lessons with Katie Zaferes</p>
+      <p>
+        <b>From $136 </b> / person
+      </p>
     </div>
   );
 };
