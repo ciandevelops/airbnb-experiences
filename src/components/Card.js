@@ -1,21 +1,23 @@
-import Athlete from "../images/image-1.png";
 import Star from "../images/star.png";
+import Athlete from "../images/katie-zaferes.png";
 
-const Card = () => {
+const Card = (props) => {
   return (
     <div className="card">
-      <img src={Athlete} alt="swimmer" />
+      <img src={Athlete} alt="card" />
+      <img src="../images/katie-zaferes.png" alt="card" />
+      <img src={`../images/${props.img}`} alt="card" />
 
       <div className="card--stats">
         <img src={Star} alt="star" className="card--star" />
-        <span>5.0</span>
-        <span className="gray">(6) •</span>
-        <span className="gray">USA</span>
+        <span>{props.rating}</span>
+        <span className="gray">{props.reviewCount} • </span>
+        <span className="gray">{props.country}</span>
       </div>
 
-      <p>Life lessons with Katie Zaferes</p>
+      <p>{props.title}</p>
       <p>
-        <b>From $136 </b> / person
+        <b>From $ {props.price} </b> / person
       </p>
     </div>
   );
