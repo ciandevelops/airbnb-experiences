@@ -1,6 +1,7 @@
 # Scrimba
-Created with this React tutorial from [Scrimba](https://scrimba.com/learn/learnreact/)
-I used assets provided on [Figma](https://www.figma.com/file/4YjrygFEXOcDp9AAnVFv7o/Airbnb-Experiences?node-id=0%3A1)
+Created with this React tutorial from [Scrimba](https://scrimba.com/learn/learnreact/).
+
+I used assets provided on [Figma](https://www.figma.com/file/4YjrygFEXOcDp9AAnVFv7o/Airbnb-Experiences?node-id=0%3A1).
 
 # Focus
 This is a simple landing page mimicing the Airbnb experiences page.
