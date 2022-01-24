@@ -6,6 +6,7 @@ import data from "./data";
 function App() {
   const cards = data.map((item) => {
     return <Card key={item.id} item={item} />;
+    // {..spread} could use this and remove .item in Card.js
   });
   return (
     <div>
