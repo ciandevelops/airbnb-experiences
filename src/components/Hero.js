@@ -1,9 +1,7 @@
-import Grid from "../images/grid.png";
-
 const Hero = () => {
   return (
     <section className="hero">
-      <img src={Grid} alt="hero" className="hero--img" />
+      <img src="/images/grid.png" alt="hero" className="hero--img" />
 
       <div className="hero--info">
         <h1 className="info--title">Online Experiences</h1>
